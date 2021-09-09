@@ -73,8 +73,8 @@ func main() {
 	xx, yy = yy, xx // swaps
 	println("xx:", xx, "yy:", yy)
 
-	fmt.Println(x == y) // output: false
-	fmt.Println(x != y) // output: true
-	fmt.Println(x > y)  // output: true
-	fmt.Println(x < y)  // output: false
+	fmt.Println("x == y:", x == y) // output: false
+	fmt.Println("x != y:", x != y) // output: true
+	fmt.Println("x > y:", x > y)   // output: true
+	fmt.Println("x < y:", x < y)   // output: false
 }
